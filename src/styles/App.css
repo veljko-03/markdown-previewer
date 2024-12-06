@@ -1,1 +1,48 @@
-/* Main Styles File */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.editor,
+.preview {
+  width: 45%;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+textarea.editor {
+  resize: none;
+  font-size: 1rem;
+  font-family: monospace;
+}
+
+.preview {
+  text-align: left;
+  font-size: 1rem;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: #0366d6;
+}
