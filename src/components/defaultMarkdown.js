@@ -1,5 +1,5 @@
 const defaultMarkdown = `# Welcome to Markdown Previewer
-## Created by: Veljko SPASIC>
+## Created by: Veljko SPASIC
 <br />
 
 [Veljko Spasic](https://www.veljko.app)
